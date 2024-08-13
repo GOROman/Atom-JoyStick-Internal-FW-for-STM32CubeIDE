@@ -29,7 +29,7 @@ extern "C" {
 #include "main.h"
 
 /* USER CODE BEGIN Includes */
-
+#include "i2c_ex.h"
 /* USER CODE END Includes */
 
 /* USER CODE BEGIN Private defines */
@@ -39,7 +39,7 @@ extern "C" {
 void MX_I2C1_Init(void);
 
 /* USER CODE BEGIN Prototypes */
-
+void user_i2c_init(void);
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus

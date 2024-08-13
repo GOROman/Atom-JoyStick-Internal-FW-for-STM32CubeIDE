@@ -46,6 +46,8 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+uint8_t i2c_address[1] = {0};
+
 
 /* USER CODE END PV */
 
