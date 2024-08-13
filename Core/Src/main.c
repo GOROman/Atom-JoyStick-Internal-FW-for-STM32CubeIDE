@@ -47,7 +47,7 @@ typedef enum {
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 #define I2C_ADDRESS 0x59
-#define FIRMWARE_VERSION 2
+#define FIRMWARE_VERSION 'G' // GOGOman Special Edition
 #define APPLICATION_ADDRESS     ((uint32_t)0x08001000)
 #define BOOTLOADER_VER_ADDR ((uint32_t)0x08001000 - 4)
 uint32_t bootloader_version;
