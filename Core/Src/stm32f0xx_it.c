@@ -73,7 +73,7 @@ void NMI_Handler(void)
 
   /* USER CODE END NonMaskableInt_IRQn 0 */
   /* USER CODE BEGIN NonMaskableInt_IRQn 1 */
-   while (1)
+  while (1)
   {
   }
   /* USER CODE END NonMaskableInt_IRQn 1 */
@@ -172,8 +172,8 @@ void ADC1_IRQHandler(void)
 /**
   * @brief This function handles I2C1 global interrupt.
   */
-//void I2C1_IRQHandler(void)
-//{
+__weak void I2C1_IRQHandler(void)
+{
   /* USER CODE BEGIN I2C1_IRQn 0 */
 
   /* USER CODE END I2C1_IRQn 0 */
@@ -181,7 +181,7 @@ void ADC1_IRQHandler(void)
   /* USER CODE BEGIN I2C1_IRQn 1 */
 
   /* USER CODE END I2C1_IRQn 1 */
-//}
+}
 
 /* USER CODE BEGIN 1 */
 
